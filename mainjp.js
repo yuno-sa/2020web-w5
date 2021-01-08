@@ -28,10 +28,10 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-    newStory = newStory.replace('Bob',name);
+    newStory = newStory.replace('太郎',name);
   }
 
-  if(document.getElementById("uk").checked) {
+  if(document.getElementById("jp").checked) {
     const weight = Math.round('体重' + 300*0.0714286) + 'kg';
     const temperature =  Math.round('華氏' + (94-32) * 5 / 9) + '度';
     newStory = newStory.replace('摂氏９４度',temperature);
