@@ -31,7 +31,7 @@ function result() {
     newStory = newStory.replace('太郎',name);
   }
 
-  if(document.getElementById("jp").checked) {
+  if(document.getElementById("uk").checked) {
     const weight = Math.round('体重' + 300*0.0714286) + 'kg';
     const temperature =  Math.round('華氏' + (94-32) * 5 / 9) + '度';
     newStory = newStory.replace('摂氏９４度',temperature);
